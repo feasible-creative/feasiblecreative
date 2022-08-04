@@ -438,11 +438,11 @@ h2{
        
     
     .copyright{
-      padding-top: 1rem;
+      padding-top: 4rem;
       text-align: center;
       line-height: 0em;
       font-size: .75rem;
-      color: var(--clr-primary-200);
+      color: var(--clr-primary-100);
         
     }
     
