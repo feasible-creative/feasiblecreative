@@ -85,9 +85,9 @@ body{
   background-color: var(--clr-primary-900);
   border-image-repeat: repeat;
   background-size: 150%;
+  height: 100% I !important;
 
-
-  min-height: 100vh;
+  min-height: 100vh !important;
   display: flex;
   flex-direction: column;
 
@@ -401,9 +401,6 @@ h2{
 
 
 
-
-
-
     .footer{
       background: var(--clr-primary-900);
       color:var(--clr-primary-100);
@@ -412,12 +409,14 @@ h2{
       text-align: center;
       justify-content: space-around;
       font-size: .75rem;
-      padding-bottom: 2rem;
       padding-top: 1rem;
       align-items: center;
-      margin-top: auto;
-      
-    
+     
+      position: relative;
+      bottom: 0;
+         left: 0;
+         width: 100%;
+         margin-top: auto;
     }
     
     
@@ -600,7 +599,15 @@ h2{
        
     }
   
-  
+    .section-about{
+      padding: 0 10rem;
+      align-items: center;
+      text-align: left;
+      
+      
+      
+    }
+
  
 
 
