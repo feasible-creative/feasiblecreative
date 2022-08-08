@@ -470,7 +470,8 @@ h2{
 
 
     .copyright{
-      padding-top: 4rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
       text-align: center;
       line-height: 0em;
       font-size: .75rem;
