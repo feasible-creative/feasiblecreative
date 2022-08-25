@@ -589,15 +589,17 @@ h2{
   }
 
   .carousel{
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
-
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   
     }
     
 
     .carousel-item{
       height: 40rem;
+      
 
     }
 
