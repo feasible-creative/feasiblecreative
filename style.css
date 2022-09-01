@@ -79,6 +79,7 @@
   font-family: Mulish, sans-serif;
   text-decoration: none;
   list-style-type: none;
+  background-color: var(--clr-primary-900);
 }
 
 html{
@@ -90,7 +91,6 @@ body{
   border-image-repeat: repeat;
   background-size: 150%;
   height: 100% I !important;
-
   min-height: 100vh !important;
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@ model-viewer{
   width: 25rem;
   height: 20rem;
   margin: 0 auto;
-  
+
 }
 
 h1, h2{
