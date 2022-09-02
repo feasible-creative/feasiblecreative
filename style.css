@@ -68,6 +68,43 @@
 
 }
 
+/* actual spinning */
+.logo{
+  animation: glide 1s;
+
+  /*
+    spin:   the keyframes (=animation) we want to have
+    5s:     how long it should take for one iteration
+    infinite: how often should it repeat
+    linear: the easing between the different key frames You can also try 'ease'
+  */
+}
+
+
+@keyframes glide {
+    0%   {transform: translateX(-2000px);} 
+    0%  {opacity: 0}
+    100% {transform: translateY(0px);}  /* end point */
+   
+}
+
+.model{
+  animation: fadeIn 5s;
+
+}
+
+
+@keyframes fadeIn {
+   from {
+    opacity: 0;
+   }
+
+   to {
+    opacity: 1;
+   }
+}
+
+
 
 
 
@@ -118,6 +155,8 @@ model-viewer{
   width: 25rem;
   height: 20rem;
   margin: 0 auto;
+
+
 
 }
 
