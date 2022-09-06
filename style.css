@@ -11,62 +11,16 @@
 
 
 
-.spinner-wrapper{
+#preloader{
+  background: var(--clr-primary-900) url(img/loader.gif) no-repeat center;
+  background-size: 25%;
+  height: 100vh;
   width: 100%;
-  height: 100%;
-  background-color: var(--clr-primary-900);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-}
-.spinner-wrapper p{
-  font-weight: bold;
-  padding: 1rem;
-  color: var(--clr-primary-300);
+  position: fixed;
+  z-index: 100;
 }
 
-.spinner {
-  position: relative;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
 
-}
-
-.spinner::before,
-.spinner:after{
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-}
-
-.spinner:before {
-  width: 100%;
-  height: 100%;
-  background-image:linear-gradient(90deg, #ffffff 0%,#000000 100% );
-  animation: spin 750ms infinite linear;
-}
-.spinner:after {
-  width: 75%;
-  height: 75%;
-  background-color: var(--clr-primary-900);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@keyframes spin {
-  to {
-      transform: rotate(360deg);
-  }
-
-}
 
 /* actual spinning */
 .logo{

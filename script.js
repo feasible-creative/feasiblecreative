@@ -1,14 +1,16 @@
-// Loading Spinner
+// Loading
 
-let spinnerWrapper = document.querySelector('.spinner-wrapper');
+const loader = document.getElementById('preloader');
+  window.addEventListener('load', function(){
+    loader.style.display = 'none';
+  }
+  
+  )
 
-window.addEventListener('load', function () {
-    spinnerWrapper.style.display = 'none';
-    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-},);
 
 
 
+// Navbar
 const body = document.querySelector("body");
 const navbar = document.querySelector(".navbar");
 const menuBtn = document.querySelector(".menu-btn");
