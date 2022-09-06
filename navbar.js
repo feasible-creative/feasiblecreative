@@ -1,3 +1,14 @@
+// Loading Spinner
+
+let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+window.addEventListener('load', function () {
+    // spinnerWrapper.style.display = 'none';
+    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+},);
+
+
+
 const body = document.querySelector("body");
 const navbar = document.querySelector(".navbar");
 const menuBtn = document.querySelector(".menu-btn");
@@ -16,11 +27,3 @@ cancelBtn.onclick = ()=>{
 
 
 
-// Loading Spinner
-
-let spinnerWrapper = document.querySelector('.spinner-wrapper');
-
-window.addEventListener('load', function () {
-    // spinnerWrapper.style.display = 'none';
-    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-},);
