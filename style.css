@@ -549,10 +549,21 @@ h2{
   }
 
 
-
-
+  .formsubmit{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    
+  }
   
+  
+.formsubmitLogo{
+  width: 10rem;
+  height: auto;
+  object-fit: contain;
 
+}
+  
 
 
 /* Desktop CSS Below */
