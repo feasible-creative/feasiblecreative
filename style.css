@@ -21,9 +21,7 @@
 }
 
 
-
-/* actual spinning */
-.logo{
+.logo, model-viewer, .carousel-inner, .carousel-icon{
   animation: glide 1s;
 
   /*
@@ -35,6 +33,7 @@
 }
 
 
+
 @keyframes glide {
     0%   {transform: translateX(-2000px);} 
     0%  {opacity: 0}
@@ -42,7 +41,7 @@
    
 }
 
-.model{
+.model, .section-about, form{
   animation: fadeIn 5s;
 
 }
@@ -119,13 +118,14 @@ h1, h2{
   text-align: center;
   padding: 1rem;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 
 h2{
   font-size: 1.25rem;
   padding: 0rem;
+  margin-bottom: 1rem;
 }
 
 
