@@ -41,8 +41,8 @@
    
 }
 
-.model, .section-about, form{
-  animation: fadeIn 5s;
+.model, .section-about, .section-1, form{
+  animation: fadeIn 3s;
 
 }
 
@@ -70,6 +70,12 @@
   text-decoration: none;
   list-style-type: none;
 
+}
+
+video{
+  height: 100%;
+  width: auto;
+  background-position: center;
 }
 
 html{
@@ -221,7 +227,7 @@ h3{
 
 
 .spacer{
-  height: 5rem;
+  height: 7rem;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -263,7 +269,7 @@ h3{
   }
   
   .carousel-inner{
-  margin: 0rem 0rem 5rem 0rem;
+  margin: 0rem 0rem 7rem 0rem;
 
   
 
@@ -357,7 +363,7 @@ h3{
     font-weight: bold;
     font-size: 1rem;
     transition: all 200ms ease-in-out;
-    margin: 4rem;
+    margin: 3rem;
     
     
   }
@@ -591,6 +597,11 @@ h3{
 
 
 @media (min-width: 1100px) {
+
+  #preloader{
+    background-size: 5%;
+
+  }
 
   
 
