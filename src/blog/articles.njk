@@ -1,0 +1,45 @@
+---
+title: Articles | Feasible Creative
+layout: 'base.njk'
+---
+
+<a href="#top">
+  <img src="/img/upload.png" id="section-up"></a>
+  <div class="main-content"></div>
+  <div class="spacer"></div>
+
+<h1>ARTICLES [COMING SOON]</h1>
+<h3>Business, Design & Productivity Growth</h3>
+<img class="banner" src="/img/feasible_creative_banner.jpg">
+ 
+ 
+  <div class="section-about">
+    <ul class="article-list">
+      
+      {%- for post in collections.post | reverse -%}
+        <li>
+          <article class="snippet">
+          
+            <a href = " {{post.url }}"> <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="article-img-link"></a>
+            
+              <a href = " {{post.url }}"><h3 class="snippet_title">
+                {{ post.data.blogTitle }}</h3></a>
+
+              <h3 class="">
+                {{ post.data.date | postDate }}</h3>
+
+              <p>
+                {{ post.data.description }} [...]
+                </p>
+
+              <a href = " {{post.url }}">Continue Reading</a>
+
+
+
+
+         
+            </article>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>

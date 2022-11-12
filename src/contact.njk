@@ -1,0 +1,42 @@
+---
+title: Contact | Feasible Creative
+layout: 'base.njk'
+---
+
+<div id="preloader"></div>
+<div class="spacer"></div></div><h1>CONTACT</h1><h3>Let's Work!</h3><div class="container mt-5">
+<p>Fill out the form below with any business inquiries.</p>
+<p>We will respond within 24 hours.</p>
+<form class="row g-3" action="https://formspree.io/f/mknejrag" method="POST">
+  <!-- action="https://formsubmit.co/feasible.creative@gmail.com" method="POST"> -->
+  <!-- Honeypot --> <input type="text" name="_honey" style="display: none;"> <!-- Disable Captcha -->
+  <!-- <input type="hidden" name="_captcha" value="false"> --> <input type="text" name="a_password" style="display:none !important" tabindex="-1" autocomplete="off">
+  <input type="hidden" name="_next" value="https://feasiblecreative.com/success">
+  <div class="col-md-6">
+    <label for="firstName" class="form-label">First Name</label>
+    <input type="text" class="form-control" name="name" id="firstName" required>
+  </div>
+  <div class="col-md-6">
+    <label for="lastName" class="form-label">Last Name</label>
+    <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+  </div>
+  <div class="col-md-8">
+    <label for="emailInfo" class="form-label">E-mail</label>
+    <input type="email" class="form-control" name="email" id="emailInfo" required>
+  </div>
+  <div class="col-md-4">
+    <label for="phoneNumber" class="form-label">Phone Number</label>
+    <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (215) 555-5555">
+  </div>
+  <div class="col-md-12">
+    <label for="message" class="form-label">Message</label>
+    <textarea
+      class="form-control"
+      id="message"
+      name="message"
+      rows="5"
+      placeholder="Use this space to ask any questions..."></textarea>
+  </div>
+  <button class="contact-button">Submit</button>
+</form></div><div class="form">
+<img src="/img/formspree_logo.png" class="formLogo" alt="formspree Logo"></div>
