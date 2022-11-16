@@ -368,6 +368,7 @@ body.disabled {
   font-size: 1rem;
   transition: all 200ms ease-in-out;
   margin: 3rem;
+  
 }
 
 .section-1-button:hover {
