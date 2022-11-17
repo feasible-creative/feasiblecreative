@@ -5,11 +5,12 @@ layout: 'base.njk'
 
 <a href="#top">
   <img src="/img/upload.png" id="section-up"></a>
+
   <div class="main-content"></div>
   <div class="spacer"></div>
 
 <h1>BLOG</h1>
-<h3>Business, Design & Productivity Growth</h3>
+<h2>Business, Design & Productivity Growth</h2>
 <img class="banner" src="/img/feasible_creative_banner.jpg">
  
  
@@ -18,7 +19,6 @@ layout: 'base.njk'
       
       {%- for post in collections.post | reverse -%}
         {% include 'article-snippet.njk' %}
-
 
 
         {% endfor %}
