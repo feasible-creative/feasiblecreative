@@ -19,7 +19,7 @@ layout: 'base.njk'
 
 
 <h2>Featured Articles</h2>
-
+ <div class="section-about">
     <ul class="article-list">
       
       {%- for post in collections.featured | reverse -%}
@@ -29,5 +29,5 @@ layout: 'base.njk'
 
         {% endfor %}
       </ul>
-
+</div>
 

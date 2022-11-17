@@ -125,7 +125,7 @@ h2 {
 
 h3 {
   text-align: center;
-  margin-bottom: 1rem;
+  padding: 0rem 1rem 0rem 1rem;
   color: var(--clr-primary-300);
 }
 
@@ -216,13 +216,6 @@ ul {
 .article-list a:hover {
   color: coral;
 }
-
-/* .article-list h3 {
-  text-align: start;
-  font-size: 1rem;
-  font-style: italic;
-} */
-
 
 .article-img-link{
   width: 100%;
