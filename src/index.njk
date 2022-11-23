@@ -18,12 +18,12 @@ layout: 'base.njk'
 </a></div>
 
 
-<h2>Featured Articles</h2>
- <div class="section-about">
+{# <h2>Featured Articles</h2> #}
+ <div class="section-article">
     <ul class="article-list">
       
       {%- for post in collections.featured | reverse -%}
-        {% include 'article-snippet.njk' %}
+        {# {% include 'article-snippet.njk' %} #}
 
 
 

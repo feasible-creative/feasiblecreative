@@ -42,7 +42,7 @@ model-viewer,
 
 .model,
 .section-about,
-.section-1,
+.section-1, .section-article
 form {
   animation: fadeIn 3s;
 }
@@ -121,6 +121,7 @@ h2 {
   font-size: 1.5rem;
   padding: 0rem;
   margin-bottom: 1rem;
+  
 }
 
 h3 {
@@ -217,7 +218,7 @@ ul {
 }
 
 .article-button {
-  padding: 1rem 2rem 1rem 2rem;
+  padding: .5rem 2rem .5rem 2rem;
   border-radius: 5rem;
   background-color: var(--clr-primary-400);
   border-style: solid;
@@ -259,7 +260,18 @@ ul {
   padding: 0rem;
   margin-bottom: 1rem;
   transition: all 300ms;
+  
 }
+
+.article-body-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+ 
+}
+
+
 
 #section-up {
   width: 2rem;
@@ -271,6 +283,10 @@ ul {
   position: fixed;
   right: 5rem;
   bottom: 5rem;
+  background-color: rgba(0,0,0,.25);
+  border-radius: .5rem;
+  padding: .25rem;
+  
 }
 
 .spacer {
@@ -416,6 +432,7 @@ body.disabled {
 
 .section-about {
   padding: 0 2rem;
+  margin-top: 3rem;
 }
 
 .section-about h2 {
@@ -425,6 +442,39 @@ body.disabled {
   font-size: 1.25rem;
   font-style: italic;
 }
+
+.section-article {
+  padding: 0 2rem;
+  margin-top: 3rem;
+}
+
+.section-article h1, .section-article h2, .section-article h3{
+  padding: 0rem;
+  text-align: left;
+}
+
+
+.section-article h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+ 
+
+}
+
+.section-article h2 {
+  font-size: 2rem;
+ 
+
+}
+
+.section-article h3 {
+  font-size: 1.25rem;
+  font-style: italic;
+
+
+}
+
+
 
 .footer {
   background: var(--clr-primary-900);
@@ -473,11 +523,11 @@ body.disabled {
 
 .copyright {
   padding-top: 2rem;
-  padding-bottom: 2rem;
   text-align: center;
   line-height: 0em;
   font-size: 0.75rem;
   color: var(--clr-primary-100);
+  margin-bottom: 4rem;
 }
 
 @media (max-width: 1099px) {
@@ -561,12 +611,15 @@ body.disabled {
   .article-img {
     height: 25rem;
     width: 100%;
+    object-fit: contain;
   }
 
+
   model-viewer {
-    width: 100%;
-    height: 40rem;
+    width: 40%;
+    height: 25rem;
     margin: 0 auto;
+   
   }
 
   .carousel {
@@ -597,4 +650,21 @@ body.disabled {
     align-items: center;
     text-align: left;
   }
+
+  .section-article {
+    padding: 0 15rem;
+    align-items: center;
+    text-align: left;
+
+  }
+
+
+
+
+
+
 }
+
+
+
+
