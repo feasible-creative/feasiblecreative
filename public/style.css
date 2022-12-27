@@ -271,6 +271,13 @@ ul {
  
 }
 
+.article-body-video {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+ 
+}
+
 
 
 #section-up {
@@ -614,7 +621,7 @@ body.disabled {
   .article-img {
     height: 25rem;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
   }
 
 
@@ -655,13 +662,19 @@ body.disabled {
   }
 
   .section-article {
-    padding: 0 15rem;
+    padding: 0 20rem;
     align-items: center;
     text-align: left;
 
   }
 
-
+  .article-body-img {
+    width: 100%;
+    height: 40rem;
+    object-fit: contain;
+    margin-bottom: 1rem;
+   
+  }
 
 
 
