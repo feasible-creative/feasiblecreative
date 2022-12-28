@@ -282,8 +282,9 @@ ul {
  
 }
 
-.article-body-video iframe{
+iframe{
 position: absolute;
+height: inherit;
 
  
 }
