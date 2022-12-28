@@ -277,7 +277,8 @@ ul {
   height: 20rem;
   object-fit: cover;
   margin-bottom: 1rem;
-
+  display: flex;
+  flex-direction: column;
  
 }
 
