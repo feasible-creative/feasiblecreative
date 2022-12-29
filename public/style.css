@@ -120,7 +120,6 @@ h2 {
 h2 {
   font-size: 1.5rem;
   padding: 1rem;
-  margin-bottom: 1rem;
   
 }
 
@@ -214,7 +213,7 @@ ul {
 }
 
 .snippet {
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .article-button {
@@ -231,7 +230,7 @@ ul {
 }
 
 .article-list p {
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .article-list a {
@@ -282,7 +281,7 @@ ul {
  
 }
 
-iframe{
+ iframe{
 position: absolute;
 height: inherit;
 
@@ -395,7 +394,11 @@ body.disabled {
 
 .container {
   color: var(--clr-primary-300);
+  padding: 0 13.75rem;
+  align-items: center;
+ 
 }
+
 
 .container p {
   text-align: center;
@@ -413,7 +416,7 @@ body.disabled {
   font-weight: bold;
   font-size: 1rem;
   transition: all 200ms ease-in-out;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 .section-1-button:hover {
@@ -451,7 +454,7 @@ body.disabled {
 }
 
 .section-about {
-  padding: 0 2rem;
+  padding: 0 1rem;
   margin-top: 3rem;
 }
 
@@ -464,8 +467,8 @@ body.disabled {
 }
 
 .section-article {
-  padding: 0 2rem;
-  margin-top: 3rem;
+  padding: 0 1rem;
+  margin-top: 1rem;
 }
 
 .section-article h1, .section-article h2, .section-article h3{
@@ -640,7 +643,7 @@ body.disabled {
 
   model-viewer {
     width: 40%;
-    height: 25rem;
+    height: 15rem;
     margin: 0 auto;
    
   }
@@ -653,7 +656,7 @@ body.disabled {
   }
 
   .carousel-item {
-    height: 40rem;
+    height: 35rem;
   }
 
   .carousel-inner {
