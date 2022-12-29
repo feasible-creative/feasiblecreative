@@ -394,7 +394,7 @@ body.disabled {
 
 .container {
   color: var(--clr-primary-300);
-  padding: 0 13.75rem;
+  padding: 0rem 1rem;
   align-items: center;
  
 }
@@ -610,6 +610,13 @@ body.disabled {
 @media (min-width: 1100px) {
   #preloader {
     background-size: 5%;
+  }
+
+  .container {
+    color: var(--clr-primary-300);
+    padding: 0 13.75rem;
+    align-items: center;
+   
   }
 
   .navbar .content {
