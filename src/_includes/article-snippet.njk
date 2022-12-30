@@ -1,28 +1,21 @@
 <li>
   <article class="snippet">
+    <h4 class="snippet_title">{{ post.data.blogTitle }}</h4>
+    <h5 class="">{{ post.data.date | postDate }}</h5>
 
-
-  <h4 class="snippet_title">{{ post.data.blogTitle }}</h4>
-  <h5 class="">{{ post.data.date | postDate }}</h5>
-
-
-    <a href=" {{post.url }}">
-    <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="article-img-link"> </a>
-    <a href=" {{post.url }}">
-     
-     
-   
-     
+    <a href=" {{ post.url }}">
+      <img
+        src="{{ post.data.image }}"
+        alt="{{ post.data.imageAlt }}"
+        class="article-img-link"
+      />
     </a>
-  
-    <p>
-      {{ post.data.description }} ...
-    </p>
-    
-    <button class = "article-button"> 
-    
-    <a href=" {{post.url }}">Continue Reading</a>
+    <a href=" {{ post.url }}"> </a>
+
+    <p>{{ post.data.description }} ...</p>
+
+    <button class="article-button">
+      <a href=" {{ post.url }}">Continue Reading</a>
     </button>
-    
   </article>
 </li>

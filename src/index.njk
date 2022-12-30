@@ -17,7 +17,25 @@ layout: 'base.njk'
   <button class="section-1-button">Explore</button>
 </a></div>
 
+
+<h2>Featured Articles</h2>
+ <div class="section-article">
+    <ul class="article-list">
+      
+      {%- for post in collections.featured | reverse -%}
+        {% include 'article-snippet.njk' %}
+
+
+
+        {% endfor %}
+      </ul>
+</div>
+
+
 <h2>Newsletter Sign-Up</h2>
+<div class="section-article">
+  <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta alias eum qui.</p> -->
+
 <div class="mailchimp">
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
@@ -50,16 +68,4 @@ layout: 'base.njk'
 <!--End mc_embed_signup-->
 </div>
 
-<h2>Featured Articles</h2>
- <div class="section-article">
-    <ul class="article-list">
-      
-      {%- for post in collections.featured | reverse -%}
-        {% include 'article-snippet.njk' %}
-
-
-
-        {% endfor %}
-      </ul>
 </div>
-
