@@ -4,7 +4,6 @@ const { DateTime } = require("luxon")
 
 
 module.exports = function(eleventyConfig){
-  eleventyConfig.setTemplateFormats(['html']);
 
   eleventyConfig.addPassthroughCopy('./src/style.css');
   eleventyConfig.addPassthroughCopy('./src/img');
